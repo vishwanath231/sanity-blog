@@ -20,7 +20,7 @@ const SectionTwo = ({ postTwo, getSectionTwoPosts }) => {
         <div className='mb-6'>
             {
                 loading ? <Loader /> : (
-                    <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 '>
+                    <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8'>
                         {
                             posts.map((val, index) => (
                                 <Link to={`/post/${val.slug.current}`} key={index} className={index === 0 ? 'md:col-span-2' : index === 6 ? 'md:col-span-2' : '' }>
