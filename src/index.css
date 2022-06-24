@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+.cursive{
+    font-family: 'Courgette', sans-serif;
+}
+
+
+
+.title{
+    font-family: 'Sen', sans-serif;
+    z-index: 1;
+    color: white;
+}
+
+.sen-font{
+    font-family: 'Sen', sans-serif;
+}
+
+
+.bg {
+    background-color: rgba(0,0,0,0.3);
+    z-index: 0;
+}
